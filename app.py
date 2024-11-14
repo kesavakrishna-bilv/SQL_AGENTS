@@ -73,8 +73,8 @@ def main():
     # Configuration
     csv_file_path = st.sidebar.text_input("CSV File Path", "output.csv")
     # db_uri = st.sidebar.text_input("Database URI", "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server")
-    db_uri = "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server"
-    engine = create_engine("mssql+pyodbc://username:password@your_server/database?driver=ODBC+Driver+17+for+SQL+Server", connect_args={'timeout': 30})
+    db_uri = "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server;Connection+Timeout=60"
+    # engine = create_engine("mssql+pyodbc://username:password@your_server/database?driver=ODBC+Driver+17+for+SQL+Server", connect_args={'timeout': 30})
 
     # Instantiate the MasterAgent
     if "agent" not in st.session_state:
