@@ -1,0 +1,1500 @@
+{
+    "DatabaseLog": [
+        {
+            "column_name": "DatabaseLogID",
+            "data_type": "int"
+        },
+        {
+            "column_name": "PostTime",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "DatabaseUser",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Event",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Schema",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Object",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "TSQL",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "XmlEvent",
+            "data_type": "xml"
+        }
+    ],
+    "AdventureWorksDWBuildVersion": [
+        {
+            "column_name": "DBVersion",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "VersionDate",
+            "data_type": "datetime"
+        }
+    ],
+    "DimAccount": [
+        {
+            "column_name": "AccountKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ParentAccountKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "AccountCodeAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ParentAccountCodeAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "AccountDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AccountType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Operator",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CustomMembers",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ValueType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CustomMemberOptions",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimCurrency": [
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CurrencyAlternateKey",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "CurrencyName",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimCustomer": [
+        {
+            "column_name": "CustomerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "GeographyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CustomerAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Title",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FirstName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MiddleName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "LastName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "NameStyle",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "BirthDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "MaritalStatus",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "Suffix",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EmailAddress",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "YearlyIncome",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TotalChildren",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "NumberChildrenAtHome",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "EnglishEducation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishEducation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchEducation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EnglishOccupation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishOccupation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchOccupation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "HouseOwnerFlag",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "NumberCarsOwned",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "AddressLine1",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AddressLine2",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Phone",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "DateFirstPurchase",
+            "data_type": "date"
+        },
+        {
+            "column_name": "CommuteDistance",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimDate": [
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "FullDateAlternateKey",
+            "data_type": "date"
+        },
+        {
+            "column_name": "DayNumberOfWeek",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "EnglishDayNameOfWeek",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishDayNameOfWeek",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchDayNameOfWeek",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "DayNumberOfMonth",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "DayNumberOfYear",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "WeekNumberOfYear",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "EnglishMonthName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishMonthName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchMonthName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MonthNumberOfYear",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "CalendarQuarter",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "CalendarYear",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "CalendarSemester",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "FiscalQuarter",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "FiscalYear",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "FiscalSemester",
+            "data_type": "tinyint"
+        }
+    ],
+    "DimDepartmentGroup": [
+        {
+            "column_name": "DepartmentGroupKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ParentDepartmentGroupKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DepartmentGroupName",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimEmployee": [
+        {
+            "column_name": "EmployeeKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ParentEmployeeKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EmployeeNationalIDAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ParentEmployeeNationalIDAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesTerritoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "FirstName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "LastName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MiddleName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "NameStyle",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "Title",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "HireDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "BirthDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "LoginID",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EmailAddress",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Phone",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MaritalStatus",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "EmergencyContactName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EmergencyContactPhone",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalariedFlag",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "PayFrequency",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "BaseRate",
+            "data_type": "money"
+        },
+        {
+            "column_name": "VacationHours",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "SickLeaveHours",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "CurrentFlag",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "SalesPersonFlag",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "DepartmentName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StartDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "EndDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "Status",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EmployeePhoto",
+            "data_type": "varbinary"
+        }
+    ],
+    "DimGeography": [
+        {
+            "column_name": "GeographyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "City",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StateProvinceCode",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StateProvinceName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CountryRegionCode",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EnglishCountryRegionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishCountryRegionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchCountryRegionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "PostalCode",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesTerritoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "IpAddressLocator",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimOrganization": [
+        {
+            "column_name": "OrganizationKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ParentOrganizationKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "PercentageOfOwnership",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "OrganizationName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        }
+    ],
+    "DimProduct": [
+        {
+            "column_name": "ProductKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ProductSubcategoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "WeightUnitMeasureCode",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "SizeUnitMeasureCode",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "EnglishProductName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishProductName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchProductName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StandardCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "FinishedGoodsFlag",
+            "data_type": "bit"
+        },
+        {
+            "column_name": "Color",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SafetyStockLevel",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "ReorderPoint",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "ListPrice",
+            "data_type": "money"
+        },
+        {
+            "column_name": "Size",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SizeRange",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Weight",
+            "data_type": "float"
+        },
+        {
+            "column_name": "DaysToManufacture",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductLine",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "DealerPrice",
+            "data_type": "money"
+        },
+        {
+            "column_name": "Class",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "Style",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "ModelName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "LargePhoto",
+            "data_type": "varbinary"
+        },
+        {
+            "column_name": "EnglishDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ChineseDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ArabicDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "HebrewDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ThaiDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "GermanDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "JapaneseDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "TurkishDescription",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StartDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "EndDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "Status",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimProductCategory": [
+        {
+            "column_name": "ProductCategoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductCategoryAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EnglishProductCategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishProductCategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchProductCategoryName",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimProductSubcategory": [
+        {
+            "column_name": "ProductSubcategoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductSubcategoryAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EnglishProductSubcategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishProductSubcategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchProductSubcategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ProductCategoryKey",
+            "data_type": "int"
+        }
+    ],
+    "DimPromotion": [
+        {
+            "column_name": "PromotionKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "PromotionAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EnglishPromotionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishPromotionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchPromotionName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "DiscountPct",
+            "data_type": "float"
+        },
+        {
+            "column_name": "EnglishPromotionType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishPromotionType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchPromotionType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EnglishPromotionCategory",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SpanishPromotionCategory",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FrenchPromotionCategory",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StartDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "EndDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "MinQty",
+            "data_type": "int"
+        },
+        {
+            "column_name": "MaxQty",
+            "data_type": "int"
+        }
+    ],
+    "DimReseller": [
+        {
+            "column_name": "ResellerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "GeographyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ResellerAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Phone",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "BusinessType",
+            "data_type": "varchar"
+        },
+        {
+            "column_name": "ResellerName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "NumberEmployees",
+            "data_type": "int"
+        },
+        {
+            "column_name": "OrderFrequency",
+            "data_type": "char"
+        },
+        {
+            "column_name": "OrderMonth",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "FirstOrderYear",
+            "data_type": "int"
+        },
+        {
+            "column_name": "LastOrderYear",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductLine",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AddressLine1",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AddressLine2",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AnnualSales",
+            "data_type": "money"
+        },
+        {
+            "column_name": "BankName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MinPaymentType",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "MinPaymentAmount",
+            "data_type": "money"
+        },
+        {
+            "column_name": "AnnualRevenue",
+            "data_type": "money"
+        },
+        {
+            "column_name": "YearOpened",
+            "data_type": "int"
+        }
+    ],
+    "DimSalesReason": [
+        {
+            "column_name": "SalesReasonKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesReasonAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesReasonName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesReasonReasonType",
+            "data_type": "nvarchar"
+        }
+    ],
+    "DimSalesTerritory": [
+        {
+            "column_name": "SalesTerritoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesTerritoryAlternateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesTerritoryRegion",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesTerritoryCountry",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesTerritoryGroup",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesTerritoryImage",
+            "data_type": "varbinary"
+        }
+    ],
+    "DimScenario": [
+        {
+            "column_name": "ScenarioKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ScenarioName",
+            "data_type": "nvarchar"
+        }
+    ],
+    "FactAdditionalInternationalProductDescription": [
+        {
+            "column_name": "ProductKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CultureName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ProductDescription",
+            "data_type": "nvarchar"
+        }
+    ],
+    "FactCallCenter": [
+        {
+            "column_name": "FactCallCenterID",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "WageType",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Shift",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "LevelOneOperators",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "LevelTwoOperators",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "TotalOperators",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "Calls",
+            "data_type": "int"
+        },
+        {
+            "column_name": "AutomaticResponses",
+            "data_type": "int"
+        },
+        {
+            "column_name": "Orders",
+            "data_type": "int"
+        },
+        {
+            "column_name": "IssuesRaised",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "AverageTimePerIssue",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "ServiceGrade",
+            "data_type": "float"
+        },
+        {
+            "column_name": "Date",
+            "data_type": "datetime"
+        }
+    ],
+    "FactCurrencyRate": [
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "AverageRate",
+            "data_type": "float"
+        },
+        {
+            "column_name": "EndOfDayRate",
+            "data_type": "float"
+        },
+        {
+            "column_name": "Date",
+            "data_type": "datetime"
+        }
+    ],
+    "FactFinance": [
+        {
+            "column_name": "FinanceKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "OrganizationKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DepartmentGroupKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ScenarioKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "AccountKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "Amount",
+            "data_type": "float"
+        },
+        {
+            "column_name": "Date",
+            "data_type": "datetime"
+        }
+    ],
+    "FactInternetSales": [
+        {
+            "column_name": "ProductKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "OrderDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DueDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ShipDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CustomerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "PromotionKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesTerritoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesOrderNumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesOrderLineNumber",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "RevisionNumber",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "OrderQuantity",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "UnitPrice",
+            "data_type": "money"
+        },
+        {
+            "column_name": "ExtendedAmount",
+            "data_type": "money"
+        },
+        {
+            "column_name": "UnitPriceDiscountPct",
+            "data_type": "float"
+        },
+        {
+            "column_name": "DiscountAmount",
+            "data_type": "float"
+        },
+        {
+            "column_name": "ProductStandardCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TotalProductCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "SalesAmount",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TaxAmt",
+            "data_type": "money"
+        },
+        {
+            "column_name": "Freight",
+            "data_type": "money"
+        },
+        {
+            "column_name": "CarrierTrackingNumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CustomerPONumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "OrderDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "DueDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "ShipDate",
+            "data_type": "datetime"
+        }
+    ],
+    "FactInternetSalesReason": [
+        {
+            "column_name": "SalesOrderNumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesOrderLineNumber",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "SalesReasonKey",
+            "data_type": "int"
+        }
+    ],
+    "FactProductInventory": [
+        {
+            "column_name": "ProductKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "MovementDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "UnitCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "UnitsIn",
+            "data_type": "int"
+        },
+        {
+            "column_name": "UnitsOut",
+            "data_type": "int"
+        },
+        {
+            "column_name": "UnitsBalance",
+            "data_type": "int"
+        }
+    ],
+    "FactResellerSales": [
+        {
+            "column_name": "ProductKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "OrderDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DueDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ShipDateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ResellerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EmployeeKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "PromotionKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesTerritoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "SalesOrderNumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "SalesOrderLineNumber",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "RevisionNumber",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "OrderQuantity",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "UnitPrice",
+            "data_type": "money"
+        },
+        {
+            "column_name": "ExtendedAmount",
+            "data_type": "money"
+        },
+        {
+            "column_name": "UnitPriceDiscountPct",
+            "data_type": "float"
+        },
+        {
+            "column_name": "DiscountAmount",
+            "data_type": "float"
+        },
+        {
+            "column_name": "ProductStandardCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TotalProductCost",
+            "data_type": "money"
+        },
+        {
+            "column_name": "SalesAmount",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TaxAmt",
+            "data_type": "money"
+        },
+        {
+            "column_name": "Freight",
+            "data_type": "money"
+        },
+        {
+            "column_name": "CarrierTrackingNumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CustomerPONumber",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "OrderDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "DueDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "ShipDate",
+            "data_type": "datetime"
+        }
+    ],
+    "FactSalesQuota": [
+        {
+            "column_name": "SalesQuotaKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EmployeeKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CalendarYear",
+            "data_type": "smallint"
+        },
+        {
+            "column_name": "CalendarQuarter",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "SalesAmountQuota",
+            "data_type": "money"
+        },
+        {
+            "column_name": "Date",
+            "data_type": "datetime"
+        }
+    ],
+    "FactSurveyResponse": [
+        {
+            "column_name": "SurveyResponseKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "CustomerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProductCategoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EnglishProductCategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "ProductSubcategoryKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "EnglishProductSubcategoryName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Date",
+            "data_type": "datetime"
+        }
+    ],
+    "NewFactCurrencyRate": [
+        {
+            "column_name": "AverageRate",
+            "data_type": "real"
+        },
+        {
+            "column_name": "CurrencyID",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "CurrencyDate",
+            "data_type": "date"
+        },
+        {
+            "column_name": "EndOfDayRate",
+            "data_type": "real"
+        },
+        {
+            "column_name": "CurrencyKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "DateKey",
+            "data_type": "int"
+        }
+    ],
+    "ProspectiveBuyer": [
+        {
+            "column_name": "ProspectiveBuyerKey",
+            "data_type": "int"
+        },
+        {
+            "column_name": "ProspectAlternateKey",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "FirstName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "MiddleName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "LastName",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "BirthDate",
+            "data_type": "datetime"
+        },
+        {
+            "column_name": "MaritalStatus",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "EmailAddress",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "YearlyIncome",
+            "data_type": "money"
+        },
+        {
+            "column_name": "TotalChildren",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "NumberChildrenAtHome",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "Education",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Occupation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "HouseOwnerFlag",
+            "data_type": "nchar"
+        },
+        {
+            "column_name": "NumberCarsOwned",
+            "data_type": "tinyint"
+        },
+        {
+            "column_name": "AddressLine1",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "AddressLine2",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "City",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "StateProvinceCode",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "PostalCode",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Phone",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Salutation",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "Unknown",
+            "data_type": "int"
+        }
+    ],
+    "sysdiagrams": [
+        {
+            "column_name": "name",
+            "data_type": "nvarchar"
+        },
+        {
+            "column_name": "principal_id",
+            "data_type": "int"
+        },
+        {
+            "column_name": "diagram_id",
+            "data_type": "int"
+        },
+        {
+            "column_name": "version",
+            "data_type": "int"
+        },
+        {
+            "column_name": "definition",
+            "data_type": "varbinary"
+        }
+    ]
+}
