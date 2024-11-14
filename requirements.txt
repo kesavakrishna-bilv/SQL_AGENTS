@@ -43,21 +43,7 @@ fsspec==2024.10.0
 geopandas==1.0.1
 gitdb==4.0.11
 GitPython==3.1.43
-google-api-core==2.22.0
-google-auth==2.35.0
-google-cloud-aiplatform==1.71.1
-google-cloud-bigquery==3.26.0
-google-cloud-core==2.4.1
-google-cloud-resource-manager==1.13.0
-google-cloud-storage==2.18.2
-google-crc32c==1.6.0
-google-resumable-media==2.7.2
-googleapis-common-protos==1.65.0
 greenlet==3.1.1
-groq==0.11.0
-grpc-google-iam-v1==0.13.1
-grpcio==1.67.1
-grpcio-status==1.67.1
 h11==0.14.0
 httpcore==1.0.6
 httptools==0.6.4
@@ -88,7 +74,6 @@ langchain-chroma==0.1.4
 langchain-community==0.3.5
 langchain-core==0.3.15
 langchain-experimental==0.3.3
-langchain-google-vertexai==2.0.7
 langchain-groq==0.2.1
 langchain-openai==0.2.6
 langchain-text-splitters==0.3.1
@@ -129,7 +114,6 @@ nvidia-nccl-cu12==2.21.5
 nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.4.127
 oauthlib==3.2.2
-onnxruntime==1.20.0
 openai==1.54.3
 opentelemetry-api==1.27.0
 opentelemetry-exporter-otlp-proto-common==1.27.0
@@ -157,7 +141,6 @@ posthog==3.7.0
 prompt_toolkit==3.0.48
 propcache==0.2.0
 proto-plus==1.25.0
-protobuf==5.28.3
 psutil==6.1.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
