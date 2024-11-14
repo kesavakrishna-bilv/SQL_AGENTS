@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import pandas as pd
 import os
 from tools import SQLQueryTool, SQLAgentTool, DataVisualizationTool, CSVAgentTool
+from sqlalchemy import create_engine
 
 class MasterAgent:
     def __init__(self, csv_file_path, db_uri, model="gpt-4o", temperature=0):
@@ -71,8 +72,10 @@ def main():
     
     # Configuration
     csv_file_path = st.sidebar.text_input("CSV File Path", "output.csv")
-    db_uri = st.sidebar.text_input("Database URI", "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server")
-    
+    # db_uri = st.sidebar.text_input("Database URI", "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server")
+    db_uri = "mssql+pyodbc://sa:btcde%40123@10.0.0.200/AdventureWorksDW2019?driver=ODBC+Driver+17+for+SQL+Server"
+    engine = create_engine("mssql+pyodbc://username:password@your_server/database?driver=ODBC+Driver+17+for+SQL+Server", connect_args={'timeout': 30})
+
     # Instantiate the MasterAgent
     if "agent" not in st.session_state:
         st.session_state["agent"] = MasterAgent(csv_file_path=csv_file_path, db_uri=db_uri)
